@@ -1,0 +1,133 @@
+/*reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+.headersimu {
+    background-color: white;
+    height: 100px;
+}
+
+.yourbanklogo {
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 20%;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    background-image: url("./images/dollars.jpg");
+    background-size: cover;
+
+    }
+
+.container {
+        margin-top: 50px;
+        color: white;
+        text-shadow: 2px 2px 8px #050000;
+        text-align: center;
+        opacity: 90%;
+        background-color: rgb(2, 97, 65);
+        padding: 10px;
+        height: 290px;
+       
+        
+    }
+    
+.container h1 {
+        font-size: 40px;
+    }
+    
+.container p {
+        margin-bottom: 50px;
+    }
+    
+.botonsim {
+        border-radius: 30px;
+        padding: 10px;
+        background-color: white;
+        text-decoration: none;
+        font-size: 20px;
+        color:  rgb(2, 97, 65);
+        margin-top: 10px;
+        font-family: 'DM Serif Display', serif;
+        cursor: pointer;
+    }
+
+
+form {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'DM Serif Display', serif;
+        }
+
+#resultados {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: rgb(2, 97, 65);
+            border-radius: 10px;
+            color: white;
+            opacity: 90%;
+            text-shadow: 2px 2px 8px #050000;
+        }
+
+        .resultado {
+            border: 3px solid white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .resultado h2 {
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            border: 1px solid white;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid white;
+        }
+
+        th {
+            background-color:rgb(2, 97, 65);
+
+        }
+    
+    
+      
+
+
+        
